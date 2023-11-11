@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    
+    <form name="forma1">
+        <h1> Ипотечный калькулятор</h1>
+        <h2>Расчет ежемесечного платежа</h2>
+        Стоимость квартиры<br> <input type="text" name="st1"><br>
+        Ставка <br><input type="text" name="st2"><br>
+        Период <br><input type="text" name="st3"><br>
+        <br>
+        <input type="button" value="Рассчитать" onclick="calculatePayment(forma1);"><br><br>
+        <input type="reset" value="Отменить"><br><br>
+        Результат <br><input type="text" name="res">
+        <br>
+        <br>
+        <br>
+        <br>
+    </form>
+
+    <form name="forma">
+        <h2>Площадь прямоугольника</h2>
+        высота<br><input type="text" name="st1"><br>
+        сторона<br><input type="text" name="st2"><br><br>
+        <input type="button" value="Рассчитать" onclick="areaOfTriangle(forma);"><br><br>
+        <input type="reset" value="Отменить"><br><br>
+        Результат <br><input type="text" name="res">
+    </form>
+
+    <form name="maxmin">
+        <h2>Даны числа 7, -3, 10, 23,-100,0,55. Найти максимальное и минимальное</h2>
+        <input type="button" value="Вычислить" onclick="randomchik(maxmin);"><br><br>
+
+        Максимальное число<br><input type="text" name="max"><br><br>
+        Минимально число<br><input type="text" name="min"><br><br>
+
+    </form>
+</body>
+
+</html>

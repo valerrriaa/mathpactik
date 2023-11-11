@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <form name="forma1">
+        Сторона 1<br> <input type="text" size="8" maxlength="8" name="st1"><br>
+        Сторона 2 <br><input type="text" size="8" maxlength="8" name="st2"><br>
+        Сторона 3 <br><input type="text" size="8" maxlength="8" name="st3">
+        <br>
+        <br>
+        <input type="button" value="Вычислить" onclick="areaOfTriangle(forma1);"><br><br>
+        <input type="reset" value="Отменить"><br><br>
+        Результат <br><input type="text" size="8" maxlength="8" name="res">
+        <br>
+        <br>
+        <br>
+        <br>
+    </form>
+        <form name="rand">
+           max число<br><input type="text" size="8" maxlength="8" name="max"><br>
+           min число <br><input type="text" size="8" maxlength="8" name="min"><br><br>
+            <input type="button" 
+            value="Вычислить " 
+            onclick="random(rand);"><br><br>
+            <input type="reset" value="Отменить"><br><br>
+            Результат<br> <input type="text" size="8" maxlength="8" name="res2"><p></p>
+            <br>
+            <br>
+            <br>
+    </form>  
+    <form name="equation">
+      a <br> <input type="text" size="8" maxlength="8" name="a"><br>
+      b <br><input type="text" size="8" maxlength="8" name="b"><br>
+      c <br><input type="text" size="8" maxlength="8" name="c"><br><br>
+      <input type="button" value="Вычислить кв урав " onclick="equat(equation);"> <br><br>
+      Дискриминант <br>
+      <input type="text" size="8" maxlength="8" name="resultEquation" /><br><br>
+      x1<br><input type="text" size="8" maxlength="8" name="resultx1" /><br>
+      x2<br><input type="text" size="8" maxlength="8" name="resultx2" /><br><br>
+      Результат<br><input type="text" size="8" maxlength="8" name="not" /><br><br>
+      <input type="reset" value="Отменить"><br><br>
+    </form> 
+</body>
+</html>
